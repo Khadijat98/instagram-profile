@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgb(214, 208, 208);
+
+  &__logo {
+    width: 6rem;
+    padding-right: 1rem;
+  }
+
+  &__link {
+    font-size: 1.25rem;
+  }
+}

@@ -1,6 +1,8 @@
 const users = [
   {
     id: 1,
+    profileIcon: "https://i.ibb.co/K5rdYVk/photo-1546527868-ccb7ee7dfa6a-ixlib-rb-1-2.jpg",
+    profileHeader: "Playful Pups",
     profileName: "Playful Pups",
     profileDescription: "The most adorable puppies of Instagram",
     profileWebsiteLink: null,
