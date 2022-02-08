@@ -1,18 +1,26 @@
 import React from 'react';
-import users from "../../data/users";
+import "./ImagesTab.scss";
 
 const ImagesTab = (props) => {
   const {imagesArr} = props;
 
   const images = imagesArr.map(image => {
-    return <div>
-      <img src={image.profileImages}/>
+    return <div key={image.id}>
+      <img className="image" src={image.imageURL}/>
     </div>
   })
 
-  return <div>
+  // const userImages = imagesArr.map(images => {
+  //   return images.map(image => {
+  //     return <div key={image.id}>
+  //     <img src={image.profileImages.imageURL}/>
+  //   </div>
+  //   })
+  // })
+
+  return <div className="images">
      {images}
-  </div>;
+  </div>
 };
 
 export default ImagesTab;

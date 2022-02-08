@@ -1,13 +1,17 @@
 import "./App.scss";
 import users from "../src/data/users";
+import images from "../src/data/images";
 import ImagesTab from "./components/ImagesTab/ImagesTab";
 import Nav from "./components/Nav/Nav";
+import ProfileHeader from "./components/ProfileHeader/ProfileHeader";
 
 const App = () => {
   return <div>
     <Nav />
-    {/* <ImagesTab imagesArr={users}/> */}
-  </div>;
+    <ProfileHeader userProfileHeader={users}/>
+    {/* <ImagesTab imagesArr={images}/> */}
+    <ImagesTab imagesArr={images}/>
+  </div>
 };
 
 export default App;
