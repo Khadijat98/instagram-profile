@@ -10,7 +10,7 @@ const App = () => {
     <Nav />
     <ProfileHeader userProfileHeader={users}/>
     {/* <ImagesTab imagesArr={images}/> */}
-    <ImagesTab imagesArr={images}/>
+    <ImagesTab users={users}/>
   </div>
 };
 

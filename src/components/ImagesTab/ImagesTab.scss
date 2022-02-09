@@ -1,7 +1,12 @@
 .images {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 0.1rem;
+  // padding: 0.5rem;
 }
 
 .image {
